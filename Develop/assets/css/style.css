@@ -61,11 +61,6 @@ p {
     background-position: center;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 /* "Benefits" section styling */
 .benefits {
@@ -97,6 +92,12 @@ p {
 
 
 /* "Content" section styling */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,15 +117,6 @@ p {
     font-size: 36px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* "Footer" section styling */
 
 .footer {
@@ -136,4 +128,16 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* General Styling */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
